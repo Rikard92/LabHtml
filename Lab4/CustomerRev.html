@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="StyleBig.css">
+    <link rel="stylesheet" type="text/css" href="StyleMed.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" type="text/css" href="StyleSmall.css" media="screen and (max-width: 480px)">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+    <header class="navbar-default">
+        <div class="container">
+            <nav class="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+
+                        </button>
+                        <a class="navbar-brand" href="#">Brand</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="LandIndex.html">Main </a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="Aquarium.html">Aquarium</a></li>
+                            <li><a href="VideoTV.html">TVset</a></li>
+                            <li class="active"><a href="#">Custommer reviwe<span class="sr-only">(current)</span></a></li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Good</a></li>
+                                    <li><a href="#">Mediocer</a></li>
+                                    <li><a href="#">Bad</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+
+
+    <audio autoplay loop>
+        <!--      <source src="/audio/Calming Ocean Waves (Tobago).mp3" type="audio/mp3">--->
+    </audio>
+
+
+    <div id="wrapper">
+    
+
+        <h3><a id="Sidetopic" name="The Sidetopic" tabindex="-1"></a>The Side Topic</h3>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Contactinformation</div>
+                    <div class="panel-body">
+
+                        <form class="form" id="form1">
+
+                            <p class="name">
+                                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                            </p>
+
+                            <p class="email">
+                                <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                            </p>
+
+                            <p class="text">
+                                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                            </p>
+                            <select class="Rating feedback-input">
+                                <optgroup label="Kvalite">
+                                    <option value="bra">Bra</option>
+                                    <option value="Dalig">Dålig</option>
+                                    <option value="Mediocer">Mediocer</option>
+                                </optgroup>
+
+                            </select>
+
+
+                            <div class="submit">
+                                <input type="submit" value="SEND" id="button-blue" />
+                                <div class="ease"></div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4 imcontainer">
+                <div class="picture">
+                    <figure class="front"><img src="images/Island1.jpg" /></figure>
+                    <figure class="back"><img src="images/Island1.jpg" /></figure>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="col-sm-4">
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt interdum lorem, vel aliquet velit porta ac.
+                    In cursus mi ante, eget elementum nunc consectetur sit amet. Ut nec viverra magna. Nullam id odio hendrerit, malesuada massa id,
+                    euismod lorem. Proin tristique neque venenatis nisi congue feugiat. Pellentesque euismod, lectus et posuere ultrices, diam metus hendrerit leo,
+                    vitae tincidunt dui urna et diam. Nunc in lorem nisi. Aliquam eget neque lobortis, tincidunt risus et, hendrerit nisl. Sed eu risus condimentum,
+                    pretium quam vel, pulvinar massa. Maecenas cursus interdum urna. Quisque ultrices ante nec ligula sollicitudin consequat.
+                </article>
+            </div>
+
+
+        </div>
+
+        <br />
+        <footer>
+            <address>
+                <small>@Riakrd </small> &nbsp;&nbsp;&copy;2016
+            </address>
+        </footer>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

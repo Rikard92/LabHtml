@@ -1,0 +1,33 @@
+﻿body {
+    background-color:#ffd800;
+  
+}
+
+#wrapper {
+
+        background-color:white;
+        width: 70%;
+        height: 600px;
+        margin: 10px auto;
+}
+
+#Textsquare{
+        width: 100%;
+        height: 100px;
+        background-color:lightpink;
+        word-wrap: break-word;
+
+}
+
+article{
+    padding: 0px 20px 0px 25px;
+    background-color:white;
+
+}
+
+#pics{
+    text-align: center;
+    align-content:center;
+    padding: 10px;
+}
+

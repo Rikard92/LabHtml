@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,8 +107,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Poaster.html" />
+    <Content Include="postenote.css" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Style.css" />
+    <Content Include="StyleMed.css" />
+    <Content Include="StyleSmall.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

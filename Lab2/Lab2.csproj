@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Mainpage.html" />
+    <Content Include="order.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -106,8 +108,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Recipe.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="StyleLabb2.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

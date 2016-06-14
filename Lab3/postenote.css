@@ -1,0 +1,47 @@
+﻿body {
+}
+
+.container{
+
+    margin-top: 50px;
+    position: relative;
+}
+
+.note {
+  color: #333;
+  position: relative;
+  width: 200px;
+  height: 85px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Satisfy;
+  font-size: 30px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+  transform-style: preserve-3d;
+
+    transition: transform 1s;
+
+    overflow: hidden; 
+
+}
+
+
+.yellow {
+    background: #ffd800;
+    transform: rotate(5deg);
+
+}
+
+.note:hover{
+    background: #4cff00;
+    transform: rotate(-10deg);
+    width: 500px;
+    height: 300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.nothe:hover:after{
+
+}
