@@ -32,49 +32,123 @@ footer{
 
 .aquarium{
     background-color:aqua;
-    height: 500px;
+    height: 700px;
 }
 
-.shark{
+#theshark{
+    
     height: 120px; 
     width: 240px;
     animation-name: sharkswim;
-    animation-duration: 8s;
+    animation-duration: 16s;
+    margin: 0;
+    display: block;
+    animation-timing-function: ease-in-out;
     position: relative;
     animation-iteration-count: infinite;
 }
 
-.shark figure {
-    margin: 0;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-}
-.shark .Toleft{
-     height: 120px; 
-    width: 240px;
-}
-
-.shark .Toright{
-     height: 120px; 
-    width: 240px;
-}
-
 
 @keyframes sharkswim {
-    0%   {transform: rotateY(180deg); left:0px; top:0px;}
-    50%  { left:800px; top:0px;}
-    100% { left:0px; top:0px;}
+
+
+    
+    0%   { transform: rotateY(180deg); left:0px; top:0px;}
+    25%  { transform: rotateY(180deg); left:800px; top:0px;}
+    50%  { left:800px; top:0px; }
+    75%  { left:0px; top:0px;}
+    90%  { left:0px; top:0px;}
+    100% {transform: rotateY(-180deg); left:0px; top:0px;}
 }
 
+#sharksquare:checked ~.aquarium #theshark{
+    
+    height: 120px; 
+    width: 240px;
+    animation-name: sharkswimotherway;
+    animation-duration: 16s;
+    margin: 0;
+    display: block;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+@keyframes sharkswimotherway {
+
+       0%   { transform: rotateY(180deg); left:800px; top:100px;}
+    25%  { transform: rotateY(180deg); left:0px; top:100px;}
+    50%  { left:0px; top:100px;}
+    75%  { left:800px; top:100px;}
+    90%  { left:800px; top:100px;}
+    100% {transform: rotateY(-180deg); left:800px; top:100px;}
+}
+
+
+
+#themoray{
+    
+    top: 250px;
+    animation-name: morayswim;
+    animation-duration: 12s;
+    margin: 0;
+    display: block;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+#moraybox:checked ~.aquarium #themoray{
+
+    animation-name: morayswimotherway;
+      animation-duration: 12s;
+    margin: 0;
+    display: block;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+@keyframes morayswim{
+
+    25%  {  left:0px; top:250px;}
+    50%  { left:800px; top:250px; }
+    75%  { left:0px; top:250px;}
+    90%  { left:0px; top:250px;}
+    100% {transform: rotateY(-180deg); left:0px; top:250px;}
+}
+@keyframes morayswimotherway{
+    25%  {  left:800px; top:250px;}
+    50%  { left:0px; top:250px; }
+    75%  { left:800px; top:250px;}
+    90%  { left:800px; top:250px;}
+    100% {transform: rotateY(-180deg); left:800px; top:250px;}
+}
+
+#thestonefish{
+    
+    top: 0px;
+    left: 100px;
+    animation-name: stonefishswim;
+    animation-duration: 22s;
+    margin: 0;
+    display: block;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+@keyframes stonefishswim{
+
+    25%  {  transform: rotateY(180deg); left:100px; top:0px;}
+    50%  { left:800px; top:0px; }
+    75%  { left:100px; top:100px;}
+    90%  { left:100px; top:0px;}
+    100% {transform: rotateY(-180deg); left:100px; top:0px;}
+}
 
 .imcontainer {
     width: 100%;
     height: 180px;
     position: relative;
-    font-size: 7rem;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -103,7 +177,7 @@ footer{
 }
 /*Färgsätter baksidan*/
 .picture .back{
-    background-color:#4cff00;
+    background-color:white;
     transform: rotateY(180deg);
 }
 
@@ -162,6 +236,19 @@ article:hover{
 	color:#30aed6;
 	border:#30aed6 solid 3px;
 }
+
+#tv_container {
+     background-image: url('images/OldTv.png') ;
+     width: 468px; /* Adjust TV image width */
+     height: 313px; /* Adjust TV image height */
+     position: relative;
+            }
+
+#tv_container video {
+     position: absolute;
+     top: 30px; /* Adjust top position */
+     left: 40px; /* Adjust left position */
+                }
 
 /* Icons ---------------------------------- */
 #name{

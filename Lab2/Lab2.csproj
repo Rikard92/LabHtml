@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\ost1.jpg" />
     <Content Include="Mainpage.html" />
     <Content Include="order.html" />
     <Content Include="packages.config" />

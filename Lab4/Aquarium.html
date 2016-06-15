@@ -64,14 +64,10 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <div class="gamecontainer">
-                    <input type="checkbox" name="sharky" id="sharkbox" /> Shark <br />
+                <div class="checksquareontainer">
+                    <input type="checkbox" id="sharksquare" /> Shark <br />
                     <input type="checkbox" id="moraybox" /> Moray <br />
                     <input type="checkbox" id="stonefishbox" /> Stonefish <br />
-                    <input type="button" value="StarSwiming" onclick="swim();" />
-                    <input type="button" value="Stop" onclick="stop();" />
-                    
-                    
 
                 </div>
 
@@ -81,13 +77,11 @@
                 <div class="aquarium">
                     <h2>Here be fishes</h2>
 
-                    <section class="fish">
-                        <div class="shark">
-                            <figure class="Toleft"><img src="/images/haj.png" width="240" /></figure>
-                           
+                            <img class="selife" id="theshark" src="/images/haj.png" width="240" />
+                            <img class="selife" id="themoray" src="/images/Moray.jpg" width="240" />
+                            <img class="selife" id="thestonefish" src="/images/stonefish.jpg" width="240" />
 
-                        </div>
-                    </section>
+                    
 
                 </div>
             </div>
@@ -102,6 +96,21 @@
         </footer>
 
     </div>
+
+   
+
+    <script>
+
+        $('#sharksquare').click(function () {
+
+            if ($(this).is(':checked')) {
+                $(this).siblings('label').html('Shark');
+            } else {
+                $(this).siblings('label').html('Klicked Shark');
+            }
+        });
+    </script>
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

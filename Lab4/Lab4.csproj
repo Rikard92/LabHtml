@@ -100,6 +100,9 @@
     <Content Include="imagestest.html" />
     <Content Include="images\haj.png" />
     <Content Include="images\Island1.jpg" />
+    <Content Include="images\Moray.jpg" />
+    <Content Include="images\OldTv.png" />
+    <Content Include="images\stonefish.jpg" />
     <Content Include="images\tropical-island1.jpg" />
     <Content Include="LandIndex.html" />
     <Content Include="packages.config" />
@@ -120,6 +123,7 @@
     <Content Include="StyleMed.css" />
     <Content Include="StyleSmall.css" />
     <Content Include="VideoTV.html" />
+    <Content Include="video\Maldive3.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
