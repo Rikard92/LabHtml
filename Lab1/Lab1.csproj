@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music\Maldive3.mp4" />
+    <Content Include="music\NeonHeart-EndlessGrace.mp3" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -107,10 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.html" />
+    <Content Include="Picture\Vaultboy.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Soundloop.html" />
     <Content Include="Video.html" />
+    <Content Include="videoresorces\Maldive3.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
