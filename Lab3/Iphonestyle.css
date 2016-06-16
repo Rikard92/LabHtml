@@ -1,0 +1,31 @@
+﻿body {
+}
+
+
+#wrapper{
+    width: 1000px;
+    height: 800px;
+    margin: 0px auto;
+    background-color:aqua;
+
+}
+
+#Iphone{
+    width: 300px;
+    height: 580px;
+    margin: auto ;
+    background-color:white;
+    border-radius: 10%;
+    border: 2px solid black;
+
+}
+
+#screen{
+     width: 256px;
+    height: 420px;
+    margin: 70px 20px  ;
+    background-color:black;
+ 
+    border: 2px solid black;
+
+}

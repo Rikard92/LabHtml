@@ -96,6 +96,8 @@
   <ItemGroup>
     <Content Include="Images\Vaultboy.jpg" />
     <Content Include="Index.html" />
+    <Content Include="Iphone.html" />
+    <Content Include="Iphonestyle.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
