@@ -2,3 +2,8 @@
 
     background-color: #00ffff;
 }
+
+p::after{
+        content:"hello cellphone size!";
+        font-size:200%;
+    }

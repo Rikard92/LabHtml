@@ -2,3 +2,8 @@
     background-color:#4cff00;
 
 }
+
+p::after{
+        content: "Hello tablet size!";
+        font-size:150%;
+    }

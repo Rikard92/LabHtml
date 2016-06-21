@@ -20,6 +20,7 @@
 
 }
 
+
 #screen{
      width: 256px;
     height: 420px;
@@ -28,4 +29,167 @@
  
     border: 2px solid black;
 
+}
+
+#App1{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:green;
+    margin: 10px;
+}
+
+#App2{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:blue;
+    margin: 10px;
+}
+#App3{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:rebeccapurple;
+    margin: 10px;
+}
+#App4{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:red;
+    margin: 10px;
+}
+#App5{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:yellow;
+    margin: 10px;
+}
+#App6{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:orange;
+    margin: 10px;
+}
+#App7{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:wheat;
+    margin: 10px;
+}
+#App8{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:aqua;
+    margin: 10px;
+}
+#App9{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:mediumpurple;
+    margin: 10px;
+}
+#App10{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:firebrick;
+    margin: 10px;
+}
+#App11{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:green;
+    margin: 10px;
+}
+
+#App12{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:blue;
+    margin: 10px;
+}
+#App13{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:rebeccapurple;
+    margin: 10px;
+}
+#App14{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:red;
+    margin: 10px;
+}
+#App15{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:yellow;
+    margin: 10px;
+}
+#App16{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:orange;
+    margin: 10px;
+}
+#App17{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:wheat;
+    margin: 10px;
+}
+#App18{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:aqua;
+    margin: 10px;
+}
+#App19{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:mediumpurple;
+    margin: 10px;
+}
+#App20{
+
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color:firebrick;
+    margin: 10px;
 }

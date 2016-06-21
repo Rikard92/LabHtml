@@ -1,5 +1,5 @@
 ﻿body {
-     background-image: url("images/tropical-island1.jpg");
+     background-image: url("/images/tropical-island1.jpg");
     background-attachment: fixed;
    
 }
@@ -13,11 +13,21 @@
     padding: 5px;
 }
 
+.wrapper{
+
+    background-color: aliceblue;
+    width: 75%;
+    height: 100%;
+    margin: 30px auto;
+    padding: 5px;
+    border-radius: 5%;
+}
+
 article{
   
   position: relative;
 
-
+  border-radius: 5%;
   padding: 20px;
   font-family: Satisfy;
   font-size: 18px;
@@ -238,7 +248,7 @@ article:hover{
 }
 
 #tv_container {
-     background-image: url('images/OldTv.png') ;
+     background-image: url('/images/OldTv.png') ;
      width: 468px; /* Adjust TV image width */
      height: 313px; /* Adjust TV image height */
      position: relative;

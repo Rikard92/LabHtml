@@ -94,17 +94,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Aquarium.html" />
-    <Content Include="CustomerRev.html" />
-    <Content Include="Gallery.html" />
-    <Content Include="imagestest.html" />
+    <Content Include="images\Umap.png" />
+    <Content Include="Webbpages\Aquarium.html" />
+    <Content Include="Webbpages\CustomerRev.html" />
+    <Content Include="Webbpages\Gallery.html" />
     <Content Include="images\haj.png" />
     <Content Include="images\Island1.jpg" />
     <Content Include="images\Moray.jpg" />
     <Content Include="images\OldTv.png" />
     <Content Include="images\stonefish.jpg" />
     <Content Include="images\tropical-island1.jpg" />
-    <Content Include="LandIndex.html" />
+    <Content Include="Webbpages\LandIndex.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -119,16 +119,17 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="StyleBig.css" />
-    <Content Include="StyleMed.css" />
-    <Content Include="StyleSmall.css" />
-    <Content Include="VideoTV.html" />
+    <Content Include="Styles\StyleBig.css" />
+    <Content Include="Styles\StyleMed.css" />
+    <Content Include="Styles\StyleSmall.css" />
+    <Content Include="Webbpages\VideoTV.html" />
     <Content Include="video\Maldive3.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
