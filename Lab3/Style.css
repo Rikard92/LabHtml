@@ -2,11 +2,32 @@
     background-color:#ffd800;
   
 }
-
-p::after{
+@media screen and (max-width: 19001px) {
+    p::after{
     content:"Hello desktop size!";
     font-size:100%;
 }
+
+}
+@media screen and (max-width: 768px) {
+p::after{
+        content: "Hello tablet size!";
+        font-size:150%;
+    }
+}
+@media screen and (max-width: 480px) {
+
+        p::after{
+        content:"hello cellphone size!";
+        font-size:200%;
+    }
+    }
+}
+
+
+
+
+
 
 #wrapper {
 
